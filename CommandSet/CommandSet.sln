@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClipCommand", "ClipCommand\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClipCommand.UnitTest", "ClipCommand.UnitTest\ClipCommand.UnitTest.csproj", "{B7B166A0-B17E-4DF0-8D8F-CE6BBD3ACD98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyServices", "DependencyServices\DependencyServices.csproj", "{D524F76B-4591-4CBC-BD18-3CD516321898}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B7B166A0-B17E-4DF0-8D8F-CE6BBD3ACD98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7B166A0-B17E-4DF0-8D8F-CE6BBD3ACD98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7B166A0-B17E-4DF0-8D8F-CE6BBD3ACD98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D524F76B-4591-4CBC-BD18-3CD516321898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D524F76B-4591-4CBC-BD18-3CD516321898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D524F76B-4591-4CBC-BD18-3CD516321898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D524F76B-4591-4CBC-BD18-3CD516321898}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
