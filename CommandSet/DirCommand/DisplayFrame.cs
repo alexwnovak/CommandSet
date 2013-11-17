@@ -2,6 +2,7 @@
 using System.IO;
 using System.Linq;
 using System.Text;
+using CommandSet.AdapterSet;
 using CommandSet.DependencyServices;
 
 namespace CommandSet.DirCommand

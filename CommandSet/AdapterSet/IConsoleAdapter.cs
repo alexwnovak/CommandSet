@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 
 namespace CommandSet.AdapterSet
 {
@@ -11,6 +12,14 @@ namespace CommandSet.AdapterSet
 
       Stream OpenStandardInput();
 
+      int GetWindowWidth();
+
+      void Write( object obj );
+
+      void Write( object obj, ConsoleColor foregroundColor );
+
       void WriteLine( string text );
+
+      void WriteLine( string text, ConsoleColor foregroundColor );
    }
 }

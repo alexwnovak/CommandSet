@@ -46,14 +46,12 @@
     <Compile Include="ArgumentHandlerAttribute.cs" />
     <Compile Include="ArgumentHandlers.cs" />
     <Compile Include="ArgumentParser.cs" />
-    <Compile Include="ConsoleAdapter.cs" />
     <Compile Include="DisplayController.cs" />
     <Compile Include="DisplayFrame.cs" />
     <Compile Include="FileController.cs" />
     <Compile Include="FileEntry.cs" />
     <Compile Include="FileSystem.cs" />
     <Compile Include="IArgumentParser.cs" />
-    <Compile Include="IConsoleAdapter.cs" />
     <Compile Include="IDisplayController.cs" />
     <Compile Include="IFileController.cs" />
     <Compile Include="IFileSystem.cs" />

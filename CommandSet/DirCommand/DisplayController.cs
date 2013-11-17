@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using CommandSet.AdapterSet;
 using CommandSet.DependencyServices;
 
 namespace CommandSet.DirCommand
