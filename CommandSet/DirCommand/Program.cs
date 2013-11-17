@@ -1,4 +1,6 @@
-﻿namespace CommandSet.DirCommand
+﻿using CommandSet.DependencyServices;
+
+namespace CommandSet.DirCommand
 {
    internal static class Program
    {
