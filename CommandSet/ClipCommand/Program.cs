@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ClipCommand
+namespace CommandSet.ClipCommand
 {
    internal static class Program
    {

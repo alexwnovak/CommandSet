@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace ClipCommand
+namespace CommandSet.ClipCommand
 {
    public class ConsoleAdapter : IConsoleAdapter
    {

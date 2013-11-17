@@ -1,4 +1,4 @@
-﻿namespace ClipCommand
+﻿namespace CommandSet.ClipCommand
 {
    public interface IInputStream
    {

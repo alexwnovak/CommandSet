@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace ClipCommand
+namespace CommandSet.ClipCommand
 {
    public class InputStream : IInputStream
    {

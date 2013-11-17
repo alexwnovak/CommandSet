@@ -1,6 +1,6 @@
 ﻿using Microsoft.Practices.Unity;
 
-namespace ClipCommand
+namespace CommandSet.ClipCommand
 {
    public static class Dependency
    {
