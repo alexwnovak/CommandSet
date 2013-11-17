@@ -1,15 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ClipCommand
 {
-   class Program
+   internal static class Program
    {
-      static void Main( string[] args )
+      private static void InitDependencyInjection()
       {
+         Dependency.CreateUnityContainer();
+         Dependency.RegisterType<IInputStream, InputStream>();
+         Dependency.RegisterType<IClipboard, ClipboardAdapter>();
+         Dependency.RegisterType<IConsoleAdapter, ConsoleAdapter>();
+      }
+
+      [STAThread]
+      private static int Main( string[] arguments )
+      {
+         InitDependencyInjection();
+
+         return new AppController().Run( arguments );
       }
    }
 }
