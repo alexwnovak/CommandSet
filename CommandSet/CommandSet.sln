@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirCommand.UnitTest", "DirC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirCommand.IntegrationTest", "DirCommand.IntegrationTest\DirCommand.IntegrationTest.csproj", "{F71329F9-026B-48C1-9299-E1D9641B55E3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commands", "Commands", "{1F90C804-E03C-4300-8574-53A714639258}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{86DB0B35-26F0-4EA5-AC36-7D215B436418} = {C6901BAB-1875-492C-96F5-0C43E9282987}
 		{D524F76B-4591-4CBC-BD18-3CD516321898} = {C6901BAB-1875-492C-96F5-0C43E9282987}
+		{1B94DA2B-F493-4DCC-BF76-4617F826380A} = {1F90C804-E03C-4300-8574-53A714639258}
+		{F481E9B7-5021-4586-B548-080ECC5685BD} = {1F90C804-E03C-4300-8574-53A714639258}
 	EndGlobalSection
 EndGlobal
