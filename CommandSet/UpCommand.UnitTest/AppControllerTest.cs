@@ -14,5 +14,15 @@ namespace CommandSet.UpCommand.UnitTest
 
          Assert.AreEqual( 0, exitCode );
       }
+
+      [TestMethod]
+      public void Run_EmptyArguments_ReturnsExitCodeZero()
+      {
+         var appController = new AppController();
+
+         int exitCode = appController.Run( new string[0] );
+
+         Assert.AreEqual( 0, exitCode );
+      }
    }
 }
