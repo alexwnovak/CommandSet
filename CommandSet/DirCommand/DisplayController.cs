@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace DirCommand
+namespace CommandSet.DirCommand
 {
    public class DisplayController : IDisplayController
    {

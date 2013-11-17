@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DirCommand
+namespace CommandSet.DirCommand
 {
    public static class SizeFormatter
    {

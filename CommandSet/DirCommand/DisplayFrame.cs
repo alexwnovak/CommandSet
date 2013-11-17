@@ -1,10 +1,9 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
-using System.Runtime.InteropServices;
 using System.Text;
 
-namespace DirCommand
+namespace CommandSet.DirCommand
 {
    public static class DisplayFrame
    {

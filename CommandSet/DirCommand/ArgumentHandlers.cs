@@ -1,4 +1,4 @@
-﻿namespace DirCommand
+﻿namespace CommandSet.DirCommand
 {
    internal static class ArgumentHandlers
    {

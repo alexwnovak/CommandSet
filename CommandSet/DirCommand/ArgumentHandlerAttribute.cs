@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DirCommand
+namespace CommandSet.DirCommand
 {
    [AttributeUsage( AttributeTargets.Method )]
    public class ArgumentHandlerAttribute : Attribute

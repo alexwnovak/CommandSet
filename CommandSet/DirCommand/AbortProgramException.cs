@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace DirCommand
+namespace CommandSet.DirCommand
 {
    [Serializable]
    public class AbortProgramException : Exception

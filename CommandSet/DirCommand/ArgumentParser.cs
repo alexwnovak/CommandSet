@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace DirCommand
+namespace CommandSet.DirCommand
 {
    public class ArgumentParser : IArgumentParser
    {
