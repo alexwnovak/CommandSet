@@ -1,4 +1,4 @@
-﻿namespace CommandSet.ClipCommand
+﻿namespace CommandSet.AdapterSet
 {
    public interface IClipboard
    {

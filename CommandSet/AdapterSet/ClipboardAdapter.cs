@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using System.Windows.Forms;
 
-namespace CommandSet.ClipCommand
+namespace CommandSet.AdapterSet
 {
    public class ClipboardAdapter : IClipboard
    {
