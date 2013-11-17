@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B2FF9ABC-C92E-45AE-8277-E154EDA731B3}</ProjectGuid>
+    <ProjectGuid>{ABA29D59-7A4D-4D67-B1D8-809A7A184996}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CommandSet.DirCommand.UnitTest</RootNamespace>
-    <AssemblyName>DirCommand.UnitTest</AssemblyName>
+    <RootNamespace>CommandSet.TestCommon</RootNamespace>
+    <AssemblyName>TestCommon</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -35,9 +35,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Moq">
-      <HintPath>..\packages\Moq.4.1.1309.1617\lib\net40\Moq.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
   </ItemGroup>
   <Choose>
@@ -53,36 +50,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="AppControllerTest.cs" />
-    <Compile Include="ArgumentHandlerAttributeTest.cs" />
-    <Compile Include="ArgumentParserTest.cs" />
-    <Compile Include="DisplayControllerTest.cs" />
-    <Compile Include="FileControllerTest.cs" />
+    <Compile Include="ObjectExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SettingsRepositoryTest.cs" />
-    <Compile Include="SizeFormatterTest.cs" />
-    <Compile Include="TestHelper.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\AdapterSet\AdapterSet.csproj">
-      <Project>{86db0b35-26f0-4ea5-ac36-7d215b436418}</Project>
-      <Name>AdapterSet</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DependencyServices\DependencyServices.csproj">
-      <Project>{d524f76b-4591-4cbc-bd18-3cd516321898}</Project>
-      <Name>DependencyServices</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DirCommand\DirCommand.csproj">
-      <Project>{f481e9b7-5021-4586-b548-080ecc5685bd}</Project>
-      <Name>DirCommand</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\TestCommon\TestCommon.csproj">
-      <Project>{aba29d59-7a4d-4d67-b1d8-809a7a184996}</Project>
-      <Name>TestCommon</Name>
-    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

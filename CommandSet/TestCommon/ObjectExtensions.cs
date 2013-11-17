@@ -1,4 +1,4 @@
-﻿namespace CommandSet.DirCommand.UnitTest
+﻿namespace CommandSet.TestCommon
 {
    public static class ObjectExtensions
    {
