@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using CommandSet.DependencyServices;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 
 namespace CommandSet.ClipCommand.UnitTest

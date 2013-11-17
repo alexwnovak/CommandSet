@@ -1,4 +1,6 @@
-﻿namespace CommandSet.ClipCommand
+﻿using CommandSet.DependencyServices;
+
+namespace CommandSet.ClipCommand
 {
    public class AppController
    {

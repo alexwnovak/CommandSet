@@ -51,7 +51,6 @@
     <Compile Include="AppController.cs" />
     <Compile Include="ClipboardAdapter.cs" />
     <Compile Include="ConsoleAdapter.cs" />
-    <Compile Include="Dependency.cs" />
     <Compile Include="DisplayController.cs" />
     <Compile Include="IClipboard.cs" />
     <Compile Include="IConsoleAdapter.cs" />
@@ -64,6 +63,12 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DependencyServices\DependencyServices.csproj">
+      <Project>{d524f76b-4591-4cbc-bd18-3cd516321898}</Project>
+      <Name>DependencyServices</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

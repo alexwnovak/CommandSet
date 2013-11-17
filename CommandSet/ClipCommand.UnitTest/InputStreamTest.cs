@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using CommandSet.DependencyServices;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 

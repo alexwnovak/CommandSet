@@ -71,6 +71,10 @@
       <Project>{1b94da2b-f493-4dcc-bf76-4617f826380a}</Project>
       <Name>ClipCommand</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DependencyServices\DependencyServices.csproj">
+      <Project>{d524f76b-4591-4cbc-bd18-3cd516321898}</Project>
+      <Name>DependencyServices</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
