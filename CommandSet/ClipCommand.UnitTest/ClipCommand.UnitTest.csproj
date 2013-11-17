@@ -61,6 +61,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AdapterSet\AdapterSet.csproj">
+      <Project>{86db0b35-26f0-4ea5-ac36-7d215b436418}</Project>
+      <Name>AdapterSet</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ClipCommand\ClipCommand.csproj">
       <Project>{1b94da2b-f493-4dcc-bf76-4617f826380a}</Project>
       <Name>ClipCommand</Name>

@@ -1,4 +1,5 @@
-﻿using CommandSet.DependencyServices;
+﻿using CommandSet.AdapterSet;
+using CommandSet.DependencyServices;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 

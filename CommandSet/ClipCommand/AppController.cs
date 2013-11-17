@@ -1,4 +1,5 @@
-﻿using CommandSet.DependencyServices;
+﻿using CommandSet.AdapterSet;
+using CommandSet.DependencyServices;
 
 namespace CommandSet.ClipCommand
 {

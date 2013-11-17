@@ -44,10 +44,8 @@
   <ItemGroup>
     <Compile Include="AppController.cs" />
     <Compile Include="ClipboardAdapter.cs" />
-    <Compile Include="ConsoleAdapter.cs" />
     <Compile Include="DisplayController.cs" />
     <Compile Include="IClipboard.cs" />
-    <Compile Include="IConsoleAdapter.cs" />
     <Compile Include="IDisplayController.cs" />
     <Compile Include="IInputStream.cs" />
     <Compile Include="InputStream.cs" />
@@ -58,6 +56,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AdapterSet\AdapterSet.csproj">
+      <Project>{86db0b35-26f0-4ea5-ac36-7d215b436418}</Project>
+      <Name>AdapterSet</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DependencyServices\DependencyServices.csproj">
       <Project>{d524f76b-4591-4cbc-bd18-3cd516321898}</Project>
       <Name>DependencyServices</Name>
