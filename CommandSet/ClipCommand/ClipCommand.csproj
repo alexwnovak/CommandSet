@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>7d8ed787-a085-45f6-83ff-d6407da79075</ProjectGuid>
+    <ProjectGuid>{1B94DA2B-F493-4DCC-BF76-4617F826380A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ClipCommand</RootNamespace>
-    <AssemblyName>ClipCommand</AssemblyName>
+    <RootNamespace>CommandSet.ClipCommand</RootNamespace>
+    <AssemblyName>clip</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
