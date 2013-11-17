@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterSet", "AdapterSet\Ad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirCommand", "DirCommand\DirCommand.csproj", "{F481E9B7-5021-4586-B548-080ECC5685BD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{C6901BAB-1875-492C-96F5-0C43E9282987}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{86DB0B35-26F0-4EA5-AC36-7D215B436418} = {C6901BAB-1875-492C-96F5-0C43E9282987}
+		{D524F76B-4591-4CBC-BD18-3CD516321898} = {C6901BAB-1875-492C-96F5-0C43E9282987}
 	EndGlobalSection
 EndGlobal
