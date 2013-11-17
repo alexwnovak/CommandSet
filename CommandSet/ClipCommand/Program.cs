@@ -12,6 +12,7 @@ namespace CommandSet.ClipCommand
          Dependency.RegisterType<IInputStream, InputStream>();
          Dependency.RegisterType<IClipboard, ClipboardAdapter>();
          Dependency.RegisterType<IConsoleAdapter, ConsoleAdapter>();
+         Dependency.RegisterType<IDisplayController, DisplayController>();
       }
 
       [STAThread]
