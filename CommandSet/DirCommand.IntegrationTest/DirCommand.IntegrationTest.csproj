@@ -50,7 +50,15 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="FileSystemTest.cs" />
+    <Compile Include="IntegrationHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DirCommand\DirCommand.csproj">
+      <Project>{f481e9b7-5021-4586-b548-080ecc5685bd}</Project>
+      <Name>DirCommand</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
