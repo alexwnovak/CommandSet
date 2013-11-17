@@ -4,7 +4,7 @@
    {
       private static int Main( string[] arguments )
       {
-         return 0;
+         return new AppController().Run( arguments );
       }
    }
 }
