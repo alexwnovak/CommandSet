@@ -29,6 +29,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTest", "Integrat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCommon", "TestCommon\TestCommon.csproj", "{ABA29D59-7A4D-4D67-B1D8-809A7A184996}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataExchangeService", "DataExchangeService\DataExchangeService.csproj", "{8CD57223-EE8F-48BA-BB71-C3E8559E81FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{ABA29D59-7A4D-4D67-B1D8-809A7A184996}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABA29D59-7A4D-4D67-B1D8-809A7A184996}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABA29D59-7A4D-4D67-B1D8-809A7A184996}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CD57223-EE8F-48BA-BB71-C3E8559E81FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD57223-EE8F-48BA-BB71-C3E8559E81FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD57223-EE8F-48BA-BB71-C3E8559E81FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD57223-EE8F-48BA-BB71-C3E8559E81FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
