@@ -5,6 +5,9 @@ namespace CommandSet.DataExchangeService
 {
    public partial class MainService : ServiceBase
    {
+      private IServerApi _serverApi;
+      private bool _serviceRunning;
+
       public MainService()
       {
          InitializeComponent();
@@ -17,13 +20,19 @@ namespace CommandSet.DataExchangeService
 
       protected override void OnStart( string[] args )
       {
-         var serverApi = Dependency.Resolve<IServerApi>();
+         _serverApi = Dependency.Resolve<IServerApi>();
 
-         serverApi.Start();
+         _serverApi.Start();
+
+         _serviceRunning = true;
       }
 
       protected override void OnStop()
       {
+         if ( _serviceRunning )
+         {
+            _serverApi.Stop();
+         }
       }
    }
 }

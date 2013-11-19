@@ -31,5 +31,24 @@ namespace CommandSet.DataExchangeService.UnitTest
 
          serverApiMock.Verify( sa => sa.Start(), Times.Once );
       }
+
+      [TestMethod]
+      public void Stop_ServiceNotStarted_DoesNotTryToStopService()
+      {
+         // Setup
+
+         var serverApiMock = new Mock<IServerApi>();
+         Dependency.RegisterInstance( serverApiMock.Object );
+
+         // Test
+
+         var mainService = new MainService();
+
+         mainService.Stop();
+
+         // Assert
+
+         serverApiMock.Verify( sa => sa.Stop(), Times.Never );
+      }
    }
 }

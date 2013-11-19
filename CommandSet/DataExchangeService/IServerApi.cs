@@ -3,5 +3,7 @@
    public interface IServerApi
    {
       void Start();
+
+      void Stop();
    }
 }
